@@ -110,8 +110,7 @@ export const SettingsForm: React.FC<SettingsFormProps> = ({
                                     <FormMessage />
                                 </FormItem>
                             )}
-                        >
-                        </FormField>
+                        />
                     </div>
                     <Button disabled={loading} className="ml-auto" type="submit">
                         Save changes
